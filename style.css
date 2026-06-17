@@ -228,8 +228,9 @@ button:hover {
 /* LATEST RELEASE */
 
 .release {
+    width: 90%;
     margin: 50px auto;
-    max-width: 500px;
+    max-width: 1200px;
 }
 
 .release-cover {
@@ -246,7 +247,17 @@ button:hover {
 }
 
 .botao-spotify {
-    margin-top: 20px;
+        display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.botao-spotify iframe {
+    width: 300px;
+    height: 152px;
+    border-radius: 12px;
 }
 
 
@@ -392,15 +403,18 @@ iframe {
     }
 
     .menu {
-        flex-direction: column;
-        gap: 10px;
-        padding: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    padding: 8px;
     }
+     }
 
     .menu-botao {
-        width: 80%;
-        max-width: 250px;
-    }
+        width: auto;
+        padding: 8px 12px;
+        font-size: 13px;
 
     .shows {
         flex-direction: column;
