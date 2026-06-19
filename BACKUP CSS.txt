@@ -1,11 +1,5 @@
-* {
-    box-sizing: border-box;
-}
-
 html {
     scroll-behavior: smooth;
-     width: 100%;
-    overflow-x: hidden;
 }
 
 /* BODY */
@@ -299,10 +293,6 @@ button:hover {
     flex-wrap: wrap;
 }
 
-.videos iframe {
-    border-radius: 20px;
-}
-
 iframe {
     max-width: 100%;
     border-radius: 15px;
@@ -403,14 +393,8 @@ iframe {
 
 @media (max-width: 768px) {
 
-    .mind-bender-inc::before {
-        width: 300px;
-        height: 300px;
-    }
-
-
     h1 {
-        font-size: 28px;
+        font-size: 36px;
         letter-spacing: 2px;
     }
 
@@ -418,26 +402,19 @@ iframe {
         font-size: 26px;
     }
 
-    h3 {
-        font-size: 19px;
-    }
-
-
     .menu {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 6px;
-        padding: 8px;
-        position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    padding: 8px;
     }
+     }
 
     .menu-botao {
         width: auto;
         padding: 8px 12px;
         font-size: 13px;
-        border-width: 1px;
-    }
 
     .shows {
         flex-direction: column;
@@ -455,20 +432,4 @@ iframe {
     iframe {
         height: 220px;
     }
-}
-
-
-
-
-/* MOBILE MENOR */
-@media (max-width: 480px) {
-
-    h1 {
-        font-size: 24px;
-    }
-
-    .subtitle {
-        font-size: 14px;
-    }
-
 }

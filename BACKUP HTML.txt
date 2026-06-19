@@ -3,10 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-content="Mind Bender is a Progressive Psytrance Producer, Live Act and DJ from Brazil. 
-Releases on Monkey Melodic Records and performances worldwide.">
-  <title>Mind Bender | Progressive Psytrance Dj Producer</title>
+
+  <title>Mind Bender Inc</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -125,15 +123,15 @@ Progressive Psytrance Producer • Live Act • DJ
 
   <div class="social-links">
   
-    <a href="https://linktr.ee/mindbenderbr" target="_blank">
+    <a href="https://linktr.ee/mindbenderbr">
       <button>LinkTree</button>
     </a>
 
-    <a href="https://on.soundcloud.com/xuIXW6YyxuVBUNStKe" target="_blank">
+    <a href="https://on.soundcloud.com/xuIXW6YyxuVBUNStKe">
       <button>SoundCloud</button>
     </a>
   
-    <a href="https://www.instagram.com/mindbenderbr" target="_blank">
+    <a href="https://www.instagram.com/mindbenderbr">
       <button>Instagram</button>
     </a>
   </div>
@@ -163,26 +161,46 @@ Progressive Psytrance Producer • Live Act • DJ
 
   <!-- NEXT PARTIES -->
 
-<section id="shows">
+<div id="shows" class="shows">
 
-    <div class="shows-header">
-        <h2>Next Parties</h2>
+  <div class="shows-header">
+    <h2>Next Parties</h2>
+</div>
+
+    <div class="show">
+        <h3>TBA - CDMX</h3>
+        <p>August 2026</p>
+        <a href="https://facebook.com/mindbenderbr">
+          <button>Tickets</button>
+        </a>
     </div>
 
-    <div class="shows">
-
-        <div class="show">
-            <h3>Available for booking worldwide</h3>
-            <p>Contact for more information</p>
-
-            <a href="https://facebook.com/mindbenderbr">
-                <button>Book Now</button>
-            </a>
-        </div>
-
+    <div class="show">
+        <h3>TBA - São Paulo</h3>
+        <p>September 2026</p>
+        <a href="https://instagram.com/mindbenderbr">
+          <button>Tickets</button>
+        </a>
     </div>
 
-</section>
+    <div class="show">
+        <h3>TBA - São Paulo</h3>
+        <p>October 2026</p>
+        <a href="https://instagram.com/mindbenderbr">
+          <button>Tickets</button>
+        </a>
+    </div>
+
+    <div class="show">
+        <h3>TBA - São Paulo</h3>
+        <p>December 2026</p>
+        <a href="https://instagram.com/mindbenderbr">
+          <button>Tickets</button>
+        </a>
+    </div>
+
+</div>
+
 
 
 
@@ -221,11 +239,11 @@ certainty of reliving it.</p>
     
 <h2>Contact</h2>
   
-  <a href="mailto:mindbenderbooking@gmail.com"> <button>Booking Brazil</button></a>
+  <a href="mailto:mindbenderbooking@gmail.com"> <button>mindbenderbooking@gmail.com</button></a>
     
     <br><br>
     
-  <a href="mailto:monkeymelodicrecords@gmail.com"><button>Booking México</button>
+  <a href="mailto:monkeymelodicrecords@gmail.com"><button>monkeymelodicrecords@gmail.com</button>
 </a>
     
   </div>
