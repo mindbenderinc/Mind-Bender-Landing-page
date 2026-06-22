@@ -17,6 +17,8 @@ body {
     margin: 0;
 
     background:
+
+    /* IMG/Logo Mindbender cerebro branco-01.png no-repeat center center fixed, */
     radial-gradient(
         circle at 20% 20%,
         rgba(0,255,150,0.08),
@@ -203,7 +205,7 @@ button:hover {
 /* CAPA */
 
 .capa {
-    width: 420px;
+    width: 200px;
     max-width: 90%;
     transition: 0.3s;
 }
@@ -265,6 +267,139 @@ button:hover {
     height: 152px;
     border-radius: 12px;
 }
+
+
+
+/* DISCOGRAPHY */
+
+.discography {
+    width: 90%;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.discography-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.album {
+    width: 200px;
+    transition: 0.3s;
+}
+
+.album:hover {
+    transform: translateY(-8px);
+}
+
+.album a {
+    color: white;
+    text-decoration: none;
+}
+
+.album img {
+    width: 100%;
+    border-radius: 15px;
+
+    box-shadow:
+        0 0 20px rgba(255,255,255,0.15),
+        0 0 50px rgba(50,255,180,0.12);
+}
+
+.album h3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.album p {
+    opacity: 0.7;
+}
+
+
+
+
+/* LABELS */
+
+.labels {
+    width: 90%;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.labels p {
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+.labels-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.label-item {
+    padding: 15px 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 50px;
+
+    background: rgba(255,255,255,0.03);
+
+    transition: 0.3s;
+}
+
+.label-item:hover {
+    transform: translateY(-3px);
+
+    border-color: rgba(50,255,180,0.4);
+
+    box-shadow:
+        0 0 20px rgba(50,255,180,0.15);
+}
+
+
+
+/* PRESS PHOTOS */
+
+.press-photos {
+    width: 90%;
+    max-width: 1200px;
+    margin: 120px auto;
+    margin-bottom: 50px;
+}
+
+.photos-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.photos-grid img {
+    width: 100%;
+    height: 350px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 0 20px rgba(255,255,255,0.15),
+        0 0 50px rgba(50,255,180,0.12);
+
+    transition: 0.3s;
+}
+
+.photos-grid img:hover {
+    transform: scale(1.03);
+}
+
 
 
 /* SOCIAL MEDIA */
@@ -422,7 +557,9 @@ iframe {
         font-size: 19px;
     }
 
-
+    .capa {
+        width: 150px; 
+    }
     .menu {
         flex-direction: row;
         flex-wrap: wrap;
